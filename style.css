@@ -1,4 +1,8 @@
-#content {
-    margin: 0%;
-    vertical-align: auto;
+#content{
+    position: absolute;
+    left:20%;
+}
+
+#content iframe{
+    background-color:aqua ;
 }
