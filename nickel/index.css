@@ -1,0 +1,33 @@
+#nickels {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+#nickel {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 20%;
+    height: 20%;
+    opacity: 1;
+}
+
+#content {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 100%;
+    height: 100%;
+}
+
+#txt {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 300%;
+    opacity: 1;
+}
