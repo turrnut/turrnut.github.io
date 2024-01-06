@@ -1,0 +1,15 @@
+/* Align images and videos to the right within the article */
+.article img,
+.article video {
+    display: block; /* Ensures block-level rendering */
+    margin: 0 0 10px 10px; /* Margin to create space on the left */
+    float: right; /* Float elements to the right */
+}
+
+/* Align images and videos to the right within the article */
+.article img,
+.article video {
+    display: block; /* Ensures block-level rendering */
+    margin: 0 0 10px 10px; /* Margin to create space on the left */
+    float: right; /* Float elements to the right */
+}

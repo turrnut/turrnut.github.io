@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 100%;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li:hover {
+    background-color: #333;
+}
+
+.navbar li {
+    font-size:150%;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.article {
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.date {
+    font-style: italic;
+}
+
+/* Change the font of the text in the article AND navbar to Garamond */
+.navbar, .article {
+    font-family: "Garamond", serif;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 0 5px; /* Adjust the left and right margin as needed */
+        padding: 20px;
+    }
+  
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin-bottom: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .hamburger:focus {
+        outline: none;
+    }
+}
+
+/* Style images */
+img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    margin: 10px; /* Add some margin around images */
+}
+
+/* Style video player controls */
+video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.6); /* Background color of controls */
+    color: white; /* Control button color */
+}
+
+/* Add styles for the logo */
+.logo {
+    margin-right: 0px;
+    display: inline-block; /* Make it an inline block element */
+}
+
+.logo img {
+    width: 10%; /* Adjust the size as needed */
+    height: auto;
+}
+
+/* Resize the h1 in the navbar */
+.site_title {
+    display: inline-block;
+    font-size: 125%; /* Adjust the font size as needed */
+}
+
+/*********************************/
+/* styling the images and videos */
+
+/* Style the video element */
+video {
+    max-width: 100%; /* Ensure videos don't exceed their container's width */
+    border: 2px solid #333; /* Add a border around the video */
+}
+
+/* Resize images within the article */
+.article img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain the image's aspect ratio */
+    width: 50%; /* Set the image width to 50% of the container */
+}
+
+/* Resize images within the article */
+.article #logo {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain the image's aspect ratio */
+    width: 25%; /* Set the image width to 50% of the container */
+}
+
+/* Resize videos within the article */
+.article video {
+    max-width: 100%; /* Ensure videos don't exceed the width of their container */
+    height: auto; /* Maintain the video's aspect ratio */
+    width: 75%; /* Set the video width to 75% of the container */
+}
+
+/* Center-align images and videos within the article */
+.article img,
+.article video {
+    display: block; /* Ensures block-level rendering */
+    margin: 0 auto; /* Center-align horizontally */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color */
+    padding: 5px; /* Spacing inside the footer */
+    text-align: center; /* Center-align text */
+}
+
+/* Style for links in the footer */
+footer a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for the footer links on hover */
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+

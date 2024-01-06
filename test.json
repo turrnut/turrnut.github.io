@@ -1,0 +1,17 @@
+[
+  {
+    "name": "charlie",
+    "age" : 22,
+    "alive" :true
+  },
+  {
+    "name": "james",
+    "age" : 2233,
+    "alive" :false
+  },
+  {
+    "name": "arnold",
+    "age" : 1,
+    "alive" :true
+  }
+]
