@@ -21,7 +21,9 @@ navLinks.forEach(link => {
 let toname = {
   "about": "About me",
   "articles": "My Articles",
-  "constitution": "Constitution of the Turrnut Republic"
+  "constitution": "Constitution of the Turrnut Republic",
+  "turrcoin": "All about Turrcoins",
+  "products": "Turrnut Products"
 }
 
 let truename = window.location.pathname.split("/").pop().replace(".html", "");
@@ -36,15 +38,18 @@ if (window.location.pathname.split("/").pop() == "index.html" || window.location
   document.querySelector("body").querySelector(".navbar").querySelector(".container").querySelector("h1").innerHTML = thename;
 }
 
-document.querySelector("footer").innerHTML = "<em>Copyright (c) Turrnut 2023. All rights reserved.</em>";
+document.querySelector("footer").innerHTML = "<em>Copyright (c) Turrnut 2024. All rights reserved.</em>";
 try {
   document.getElementById("to_const").onclick = () => {
     window.open("constitution.html");
   }
+} catch (e) { }
+
+try {
   document.getElementById("to_coin").onclick = () => {
     window.open("turrcoin.html");
   }
-} catch (e) { }
+} catch (e) {}
 
 window.addEventListener('beforeunload', (e) => {
   // document.title = "eafdasdf";
